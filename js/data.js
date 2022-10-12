@@ -1,5 +1,11 @@
 var height_size = window.innerHeight;
+var width_size = window.innerWidth;
 var scrolly = window.scrollY;
+
+if(width_size < = 600){
+	alert("page not responsive");
+	alert("yakin ingin lanjut?");
+}
 
 //---get element nav
 const nav = document.getElementById("nav");
