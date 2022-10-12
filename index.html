@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Alam</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	<header id="homepage">
+		<nav id="nav">
+			<div class="logo" id="logo">Alam</div>
+			<ul id="nav_item">
+				<li><a href="javascript: homepage();">Home</a></li>
+				<li><a href="javascript: skillpage();">Skill</a></li>
+				<li><a href="javascript: projectpage();">Project</a></li>
+				<li><a href="javascript: contactpage();">contact</a></li>
+			</ul>
+		</nav>
+		<a class="scroll" href="javascript: skillpage();">
+			<span>Scroll</span>
+			<img src="image/icon/arrow.png">
+		</a>
+		<img class="moon" ondrag="true" src="image/moon.png">
+		<div class="homepage">
+			<h1>ALAM</br>ABDILLAH</h1>
+			<p>I'm a frontend developer, developing graphical interfaces so that users can view and interact with the website.</p>
+			<button onclick="contactpage()">Contact Me</button>
+		</div>
+	</header>
+	<section class="skillpage" id="skillpage">
+		<div id="skill_text">
+			<h1>My Skills</h1>
+			<p>my technical service</p>
+		</div>
+		<div class="skill_box">
+			<div class="skill_type">
+				<img src="image/icon/code_1.png">
+				Language Program
+				<div class="skill_item">
+					<span>Html<b>100%</b></span>
+					<progress value="100" max="100">
+				</div>
+				<div class="skill_item">
+					<span>Css<b>100%</b></span>
+					<progress value="100" max="100">
+				</div>
+				<div class="skill_item">
+					<span>Javascript/Jquery<b>100%</b></span>
+					<progress value="100" max="100">
+				</div>
+				<div class="skill_item">
+					<span>C++<b>30%</b></span>
+					<progress value="30" max="100">
+				</div>
+				<div class="skill_item">
+					<span>Python<b>25%</b></span>
+					<progress value="25" max="100">
+				</div>
+			</div>
+			<div class="skill_type">
+				<img src="image/icon/code_2.png">
+				Framework
+				<div class="skill_item">
+					<span>Bootstrap<b>50%</b></span>
+					<progress value="50" max="100">
+				</div>
+				<div class="skill_item">
+					<span>Cordova<b>70%</b></span>
+					<progress value="70" max="100">
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="projectpage" id="projectpage">
+		<div id="project_text">	
+			<h1>My Project</h1>
+			<p>Some of the projects I have worked on</p>
+		</div>
+		<div class="project_item" id="project_item">
+			<img class="project_img" src="image/project/p1.jpg">
+			<img class="project_img" src="image/project/p2.jpg">
+			<img class="project_img" src="image/project/p3.jpg">
+		</div>
+	</section>
+	<section class="contactpage" id="contactpage">
+		<div id="contact_left">
+			<h1>Contact Me</h1>
+			<p>Thank you for viewing my portfolio.</br>I really hope you enjoy looking at my work!</p>
+
+			<h2>My Email</h2>
+			<p>alamabdillah0801@gmail.com</p>
+			<h2>My Phone</h2>
+			<p>+62-8315-2942-468</p>
+		</div>
+		<form class="contact_right" id="contact_right" action="javascript: void();">
+			Send me message
+			<input type="text" placeholder="Name" required>
+			<input type="email" placeholder="Email" required>
+			<textarea>Message</textarea>
+			<input type="Submit" class="submit" value="Send">
+		</form>
+	</section>
+	<footer>
+		<div class="footer_top">
+			<img src="image/icon/twitter.png">
+			<img src="image/icon/facebook.png">
+			<img src="image/icon/github.png">
+			<img src="image/icon/linkedin.png">
+		</div>
+		copyright © 2022 <b>nifal</b>
+	</footer>
+
+	<script type="text/javascript" src="js/data.js"></script>
+	<script type="text/javascript" src="js/animate.js"></script>
+</body>
+</html>
